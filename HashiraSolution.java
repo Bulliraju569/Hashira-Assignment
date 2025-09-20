@@ -10,11 +10,9 @@ public class HashiraSolution {
             HashiraSolution solver = new HashiraSolution();
             String result1 = solver.solveFromFile("test1.json");
             String result2 = solver.solveFromFile("test2.json");
-            String result3 = solver.solveFromFile("test3.json");
             
             System.out.println("Test Case 1 Result: " + result1);
             System.out.println("Test Case 2 Result: " + result2);
-            System.out.println("Test Case 3 Result: " + result3);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -190,3 +188,4 @@ public class HashiraSolution {
         }
     }
 }
+
